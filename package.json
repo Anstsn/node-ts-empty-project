@@ -1,0 +1,36 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "r": "tsc && node build/index.js",
+    "test": "mocha -r ts-node/register 'tests/**/*.spec.ts'"
+  },
+  "author": {
+    "name": "Alexey Solyanik",
+    "email": "solyanik.alexey@gmail.comn"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "@reactivex/rxjs": "^6.5.3",
+    "@types/node": "^12.12.11",
+    "rxjs": "^6.5.3",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.11",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "prettier": "^1.19.1",
+    "ts-node": "^8.5.4",
+    "tslint": "^5.20.1",
+    "typings": "^2.1.1"
+  }
+}
